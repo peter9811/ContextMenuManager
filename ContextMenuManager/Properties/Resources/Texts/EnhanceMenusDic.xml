@@ -917,8 +917,8 @@ Tip属性为鼠标悬浮在开关上时的提示信息，从每个Item节点开�
 	                  lnkPath = lnkPath &amp; ".lnk"
 	                  j = j + 1
 	              Loop While fso.FileExists(lnkPath)
-	              Set shortcut = wsh.CreateShortcut(lnkPath)  
-	              shortcut.TargetPath = path 
+	              Set shortcut = wsh.CreateShortcut(lnkPath)
+	              shortcut.TargetPath = path
 	              shortcut.WorkingDirectory = dir
 	              shortcut.Save
                 Next

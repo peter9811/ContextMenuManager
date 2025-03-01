@@ -10,8 +10,8 @@
 
 namespace ContextMenuManager.Properties {
     using System;
-    
-    
+
+
     /// <summary>
     ///   一个强类型的资源类，用于查找本地化的字符串等。
     /// </summary>
@@ -23,15 +23,15 @@ namespace ContextMenuManager.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-        
+
         /// <summary>
         ///   返回此类使用的缓存的 ResourceManager 实例。
         /// </summary>
@@ -45,7 +45,7 @@ namespace ContextMenuManager.Properties {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   重写当前线程的 CurrentUICulture 属性，对
         ///   使用此强类型资源类的所有资源查找执行重写。
@@ -59,7 +59,7 @@ namespace ContextMenuManager.Properties {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -69,7 +69,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -79,7 +79,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -89,7 +89,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -99,7 +99,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找类似 ;此文件为 ContextMenuManager Windows右键管理程序 的显示文本字典。
         ///;可帮助作者为此程序提供翻译并提交到Github，以下内容中等号右侧内容替换为翻译文本。
@@ -107,7 +107,7 @@ namespace ContextMenuManager.Properties {
         ///;General - TranslatorUrl 为翻译贡献者的URL地址(能用Win+R命令打开的URL链接即可)
         ///;翻译说明：暂时不翻译的值保留为空即可，字典内赋值换行使用\r\n或\n进行转义。
         ///;翻译贡献者和为多人时请使用\r\n或\n对 Translator 的值和对应的 TranslatorUrl 值换行，
-        ///;没有URL地址赋值为null，使贡献者与链接一一对应，如 Translator = Bob \r\n Join \r\n Andi, 
+        ///;没有URL地址赋值为null，使贡献者与链接一一对应，如 Translator = Bob \r\n Join \r\n Andi,
         ///;TranslatorUrl = https://github.com/BluePointLilac \r\n null \r\n https://gitee.com/BluePointLilac
         ///
         ///[General]
@@ -118,7 +118,7 @@ namespace ContextMenuManager.Properties {
                 return ResourceManager.GetString("AppLanguageDic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -128,7 +128,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -138,7 +138,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -148,7 +148,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;!--每个程序为一个Group，Text为Group项显示文本，Guid用于判断用户是否安装此程序并决定是否显示该Group，不设置Guid则为常驻菜单，RegPath为程序相关注册表主路径;
@@ -163,7 +163,7 @@ namespace ContextMenuManager.Properties {
                 return ResourceManager.GetString("DetailedEditDic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -173,7 +173,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -183,7 +183,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -193,7 +193,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;!--此文件为常用右键菜单字典, 可为此字典添加多语言翻译，添加一个Culture子项并设置为en-US, ja-JP等即可
@@ -212,7 +212,7 @@ namespace ContextMenuManager.Properties {
                 return ResourceManager.GetString("EnhanceMenusDic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   查找类似 ;&lt;说明&gt;:
         ///;由于ShellEx类型右键菜单的菜单名称和图标无法直接获取，只能通过制作字典给用户更直观的体验
@@ -238,7 +238,7 @@ namespace ContextMenuManager.Properties {
                 return ResourceManager.GetString("GuidInfosDic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -248,7 +248,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -258,7 +258,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -268,7 +268,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -278,7 +278,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -288,7 +288,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -298,7 +298,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -308,7 +308,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -318,7 +318,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -328,7 +328,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -338,7 +338,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -348,7 +348,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -358,7 +358,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -368,7 +368,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -378,7 +378,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
@@ -388,7 +388,7 @@ namespace ContextMenuManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;!-- 微软在Win10右键菜单中新增的UWP模块, 非Shell, ShellEx类型,
@@ -413,7 +413,7 @@ namespace ContextMenuManager.Properties {
                 return ResourceManager.GetString("UwpModeItemsDic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
