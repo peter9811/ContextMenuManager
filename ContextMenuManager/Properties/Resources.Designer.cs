@@ -196,8 +196,8 @@ namespace ContextMenuManager.Properties {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;!--此文件为常用右键菜单字典, 可为此字典添加多语言翻译，添加一个Culture子项并设置为en-US、ja-JP等即可
-        ///Tip属性为鼠标悬浮在开关上时的提示信息，从每个Item节点开始, 子元素Value表示该项的注册表键值，目前仅支持REG_SZ、REG_DWORD、REG_EXPAND_SZ、REG_BINARY的键值类型，
+        ///&lt;!--此文件为常用右键菜单字典, 可为此字典添加多语言翻译，添加一个Culture子项并设置为en-US, ja-JP等即可
+        ///Tip属性为鼠标悬浮在开关上时的提示信息，从每个Item节点开始, 子元素Value表示该项的注册表键值，目前仅支持REG_SZ, REG_DWORD, REG_EXPAND_SZ, REG_BINARY的键值类型，
         ///子元素SubKey的所有子元素是该项的子项，项名即为元素名; 每一Item项和SubKey的所有子元素的属性Default为该注册表项默认值，不放在Value\REG_SZ元素里面是为了防止与可能存在的键名为Default的键产生冲突
         ///由于Shell项太过复杂，程序只根据注册表项名判断存在即启用，故同一场景下不允许有相同KeyName属性的Shell项目，ShellEx项只要Guid符合则为启用--&gt;
         ///
@@ -220,7 +220,7 @@ namespace ContextMenuManager.Properties {
         ///;&lt;GUID&gt;可通过右键程序内ShellEx项目&quot;复制guid&quot;获取
         ///;不带括号的&lt;GUID&gt;为字典索引
         ///
-        ///;&lt;Text&gt;、&lt;ResText&gt;、&lt;[地区文化代码]-Text&gt;
+        ///;&lt;Text&gt;, &lt;ResText&gt;, &lt;[地区文化代码]-Text&gt;
         ///;菜单项目名称
         ///;优先级为 &lt;ResText&gt;，&lt;[地区文化代码]-Text&gt;，&lt;Text&gt;
         ///;&lt;ResText&gt;为引用资源文件字符串资源的本地化字符串,
@@ -391,11 +391,11 @@ namespace ContextMenuManager.Properties {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;!-- 微软在Win10右键菜单中新增的UWP模块, 非Shell、ShellEx类型,
+        ///&lt;!-- 微软在Win10右键菜单中新增的UWP模块, 非Shell, ShellEx类型,
         ///但是可通过GUID锁定屏蔽来禁用相关右键菜单项目,
         ///GUID查找位置：HKEY_CLASSES_ROOT\PackagedCom\Package\[包名]\Class\[GUID],
         ///Scene的各子节点为菜单项目出现位置, Item必须有Guid属性，
-        ///UwpName、Text、Icon、Tip等属性写在GuidInfosDic.ini里面--&gt;
+        ///UwpName, Text, Icon, Tip等属性写在GuidInfosDic.ini里面--&gt;
         ///
         ///&lt;Scene&gt;
         ///  &lt;File&gt;
